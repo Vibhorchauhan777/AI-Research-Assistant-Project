@@ -2,6 +2,8 @@ streamlit
 fastapi
 uvicorn
 python-dotenv
+pydantic
+pydantic-settings
 langchain
 langgraph
 langchain-community
@@ -9,4 +11,3 @@ langchain-ollama
 chromadb
 tavily-python
 requests
-pydantic
