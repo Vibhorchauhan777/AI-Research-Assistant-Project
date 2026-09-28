@@ -1,8 +1,8 @@
-# 🧠 AI Research Assistant
+# AI Research Assistant
 
 A powerful, open-source AI Research Agent that performs multi-source web research, analyzes information, and synthesizes structured answers using local Language Models. Built on top of **LangGraph**, **LangChain**, and **Streamlit**.
 
-## ✨ Features
+## Features
 
 - **Multi-Source Retrieval:** Integrates seamlessly with Tavily for high-quality, up-to-date web searches.
 - **Local LLM Support:** Fully compatible with local, privacy-preserving LLMs via **Ollama** (defaults to `qwen3:8b`).
@@ -12,7 +12,7 @@ A powerful, open-source AI Research Agent that performs multi-source web researc
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Prerequisites
 
@@ -72,7 +72,7 @@ The app will become available in your browser at `http://localhost:8501`.
 
 ---
 
-## 🧪 Testing
+## Testing
 
 The project includes built-in test scripts to verify individual components before launching the full UI:
 
@@ -92,10 +92,6 @@ python test_llm.py
 - **Search Engine:** [Tavily](https://tavily.com/)
 - **Local Inference:** [Ollama](https://ollama.com/)
 
-## 🤝 Contributing
+## Connect With Me
 
-Contributions, issues, and feature requests are welcome! Feel free to check the issues page if you want to contribute.
-
-## 📝 License
-
-This project is licensed under the MIT License.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/vibhorchauhan/)
