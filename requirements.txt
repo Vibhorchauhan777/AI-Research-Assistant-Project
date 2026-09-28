@@ -9,5 +9,9 @@ langgraph
 langchain-community
 langchain-ollama
 chromadb
+faiss-cpu
+sentence-transformers
+wikipedia
+arxiv
 tavily-python
 requests

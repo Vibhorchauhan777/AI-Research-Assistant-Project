@@ -41,7 +41,13 @@ def arxiv_search(query: str, k: int = 5):
 
     results = []
 
-    for paper in search.results():
+    try:
+        client = arxiv.Client()
+        papers = client.results(search)
+    except TypeError:
+        papers = search.results()
+
+    for paper in papers:
         results.append({
             "title": paper.title,
             "content": paper.summary,
